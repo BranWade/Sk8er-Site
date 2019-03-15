@@ -1,0 +1,38 @@
+html {box-sizing:border-box;}
+*,* :after, *:before {box-sizing:inherit;}
+
+
+
+body {
+
+background-image:url(../assets/bg.jpg)
+
+}
+
+
+
+
+#container {
+    width:930px;
+    margin:auto;
+  }
+  
+  #container div {
+    height:250px;
+    width:300px;
+    background:black;
+    color:white;
+    float:left;
+    margin:5px;
+  }
+  
+  #container div:nth-child(3) {
+    width:610px;
+  }
+  
+  #container div:nth-child(4) {
+    height:510px;
+    margin-top:-255px;
+  }
+    
+}
