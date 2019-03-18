@@ -1,11 +1,11 @@
 html {
   box-sizing:border-box;
-  text-align: center;
+ 
 }
 *,* :after, *:before {box-sizing:inherit;}
 
+
 body {
-/* background-image: url(./Sk8er-Site/assets/bg.jpg); */
 background-repeat: no-repeat;
 background-size: cover;
 font-family: helvetica;
@@ -16,21 +16,22 @@ background:
       rgba(70, 68, 68, 80%),
       rgba(70, 68, 68, 80%)
     ),
-    url(./Sk8er-Site/assets/bg.jpg);
+    url(./assets/bg.jpg);
     
-
-
 }
 
+#wrapper {
+  position: relative;
+  margin:auto;
+}
 
-#content {
-  max-width: 875px;
-  margin: 0 auto;
- 
-  }
+#center {
+  margin:auto;
+  max-width:55%;
+}
 
   
-.banner {
+ .banner {
     
   display: flex;
   justify-content: center;
@@ -42,7 +43,7 @@ background:
   overflow:hidden;
   margin: auto;
     
-} 
+}  
 
 
 
@@ -80,7 +81,7 @@ background:
   content:"";
   width:400px;
   height:100%;
-  background-image: url(./Sk8er-Site/assets/peralta-logo.png);
+  background-image: url(./assets/peralta-logo.png);
   background-position:;
   position: absolute;
   
@@ -256,7 +257,7 @@ article {
   .lance {
       grid-column: 1;
       grid-row: 1;
-      background-image: url(./Sk8er-Site/assets/sk8er-2.png);
+      background-image: url(./assets/sk8er-2.png);
       
 
       
@@ -264,20 +265,20 @@ article {
   .rodney {
       grid-column: 2;
       grid-row: 1;
-      background-image: url(./Sk8er-Site/assets/sk8er-3.png);
+      background-image: url(./assets/sk8er-3.png);
 
   }
   .steve {
       grid-column: 1/ 3 ;
       grid-row:2;
-      background-image: url(./Sk8er-Site/assets/sk8er-1.png);
+      background-image: url(./assets/sk8er-1.png);
 
   }
   .tommy {
       height:300px;
       grid-column: 3 / 4;
       grid-row: 1 / 4;
-      background-image: url(./Sk8er-Site/assets/sk8er-4.png);
+      background-image: url(./assets/sk8er-4.png);
       
   }
 
